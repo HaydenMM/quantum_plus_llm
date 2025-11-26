@@ -1,0 +1,10 @@
+name = "Quantum_llm_lean"
+version = "0.1.0"
+defaultTargets = ["quantum_llm_lean"]
+
+[[lean_lib]]
+name = "QuantumLlmLean"
+
+[[lean_exe]]
+name = "quantum_llm_lean"
+root = "Main"
